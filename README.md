@@ -1,9 +1,19 @@
 # Simple servidor de mocks
 
-## Intalar dependencias
+## Usando Docker
+
+### Construir contenedor
+`docker build -t <container-name> .`
+
+### Lanzar el contenedor
+`docker run -ti --name "mockServer" -p 3000:3000 <container-name>`
+
+## Sin usar Docker
+
+### Intalar dependencias
 `npm i`
 
-## Levantar mockServer
+### Levantar mockServer
 `npm start`
 
 ## Ejemplo de mock
